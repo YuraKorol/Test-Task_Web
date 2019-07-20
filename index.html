@@ -4,37 +4,56 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
   <link rel="stylesheet" href="style.css">
+
   <title>Document</title>
 </head>
 <body>
-  <header>
-    <div class="logo"></div>
-      <nav>
-        <ul class="top-menu">
-          <li class="item_top-menu"><a href="">Home</a></li>
-          <li class="item_top-menu"><a href="">Product</a>
-            <ul class="middle-menu">
-              <li class="item_middle-menu"><a href="">Home</a></li>
-              <li class="item_middle-menu"><a href="">Product</a></li>
-              <li class="item_middle-menu"><a href="">Hover me</a>
-                <ul class="low-menu">
-                  <li class="item_low-menu"><a href="">Home</a></li>
-                  <li class="item_low-menu"><a href="">Product</a></li>
-                  <li class="item_low-menu"><a href="">Some</a></li>
-                  <li class="item_low-menu"><a href="">Some</a></li>
-                </ul>
-              </li>
-              <li class="item_middle-menu"><a href="">Some</a></li>
-            </ul>
-          </li>
-          <li class="item_top-menu"><a href="">Some</a></li>
-          <li class="item_top-menu"><a href="">some</a></li>
-        </ul>
-        <input type="search" name="" value="">
-      </nav>
-
-  </header>
+<header>
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+		<div class="gs">
+			<a class="navbar-brand" href="#">Navbar</a>
+		</div>
+		<div class="gss">
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item">
+						<a class="nav-link" href="#">Home</a>
+					</li>
+					<li class="nav-item dropdown">
+						<a href="#" class="nav-link dropdown-toggle" id="navbarDropdown"  data-toggle="dropdown">Contacts</a>
+						<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+							<hr> 
+							<a href="#" class="nav-link a">Name Surname</a>
+							<a href="#" class="nav-link">Nelson Noa Chris</a>
+							<a href="#" class="nav-link">Name Surname</a>
+							<div class="dropdown-submenu">
+								<a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown">Nelson Noa</a>
+								<div class="dropdown-menu">
+									<hr>
+									<a href="#" class="nav-link">Action</a>
+									<a href="#" class="nav-link">Another action</a>
+									<a href="#" class="nav-link">Something else here</a>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">About</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Contact</a>
+					</li>
+				</ul>
+				<form class="form-inline my-2 my-lg-0">
+					<input class="input-style mr-sm-2">
+				</form>
+			</div>
+		</div>
+	</nav>
+</header>
   <section  class="first-section">
     <div class="wrapper_gradient">
       <div class="button_first-section left-button_first-section">
@@ -224,9 +243,9 @@
       </div>
     </div>
   </section>
-  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
   <script src="./javascript.js"></script>
-  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBGsTrSvEHvCO1IysEEjg6Kif9PivdIV2M&callback=initMap" async defer ></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
-
 </html>
