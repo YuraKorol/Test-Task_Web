@@ -123,7 +123,16 @@ nav a:active {
 }
 
 .first-section {
-  background-image: url('/Web/images/main-image.png');
+  height: 790px;
+}
+
+.carousel {
+  height: 100%;
+  background-color: #c4c4c4;
+}
+
+.sas {
+  width: 100%;
   height: 790px;
 }
 
